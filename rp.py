@@ -1,9 +1,9 @@
 import discord
 from discoird.ext import commands
 
-TOKEN = ''
+TOKEN = 'NjMxNzQ3ODgyODA2MTQ5MTMw.XnnMwg.ZPJd7uetoaFMg7kMW2nk-WhIsus'
 
-client = commands.Bot(command_prefix ='NjMxNzQ3ODgyODA2MTQ5MTMw.XnnLYA.XTZGTUtptxhjQ9kq3mnaHjZNUMs')
+client = commands.Bot(command_prefix ='+')
 
 @client.event
 async def on_ready():
