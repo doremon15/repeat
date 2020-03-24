@@ -3,7 +3,7 @@ from discoird.ext import commands
 
 TOKEN = ''
 
-client = commands.Bot(command_prefix ='')
+client = commands.Bot(command_prefix ='NjMxNzQ3ODgyODA2MTQ5MTMw.XnnLYA.XTZGTUtptxhjQ9kq3mnaHjZNUMs')
 
 @client.event
 async def on_ready():
