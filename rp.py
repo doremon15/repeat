@@ -1,5 +1,5 @@
 import discord
-from discoird.ext import commands
+from discord.ext import commands
 
 TOKEN = 'NjkxOTM1OTAzODkxMDYyNzk1.XnnNng.NRw1vwC90Hdr6rgP4TXlKEp8Whw'
 
