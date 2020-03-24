@@ -5,14 +5,15 @@ import time
 
 TOKEN = 'NjkxOTY4NzYzNTY5ODk3NTIy.XnnsLA.ZZIh7275cX2AOt-Kg24PL5YZF-U'
 
-client = commands.Bot(command_prefix ='+')
+client = discord.Client()
 
 @client.event
-async def on_ready():
-    print('Bot is ready.')
-    
-@client.command()
-async def +1():
-  await client.say('1\1\1\1\1\1\1cnf')
+async def on_message(message):
+    print(message.content) # Now every message sent will be printed to the console
+
+@client.event
+async def on_message(message):
+    if message.content.find("1") != -1:
+        await message.channel.send("1\1\1\1") # If the user says !hello we will send back hi
   
 client.run(TOKEN)
