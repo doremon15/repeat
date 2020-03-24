@@ -3,7 +3,7 @@ from discord.ext import commands
 import asynico
 import time
 
-TOKEN = 'NjkxOTM1OTAzODkxMDYyNzk1.XnnPbA.CCbL72vOZApf7J9hvARomFlqzjI'
+TOKEN = 'NjkxOTY4NzYzNTY5ODk3NTIy.XnnsLA.ZZIh7275cX2AOt-Kg24PL5YZF-U'
 
 client = commands.Bot(command_prefix ='+')
 
